@@ -17,6 +17,7 @@ ksp = "2.0.0-1.0.22"
 lifecycle = "2.8.2"
 material-icons-extended = "1.6.8"
 navigation-compose = "2.7.7"
+truth = "1.4.2"
 
 [libraries]
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
@@ -42,6 +43,7 @@ hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", vers
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt-compiler" }
 hilt-navigation = { module = "androidx.hilt:hilt-navigation", version.ref = "hilt-navigation" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
+truth = { module = "com.google.truth:truth", version.ref = "truth" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
